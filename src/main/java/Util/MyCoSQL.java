@@ -7,7 +7,7 @@ public class MyCoSQL {
     static Statement state;
 
     public static Connection  GetConnection() throws Exception{
-        String url="jdbc:mysql://172.80.237.53:3306/db_s2_ETU00346";
+        String url="jdbc:mysql://localhost:3306/db_s2_ETU00346";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connex=DriverManager.getConnection(url,"ETU003346","XE5q6nCK");
